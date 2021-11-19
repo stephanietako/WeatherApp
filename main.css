@@ -1,0 +1,91 @@
+*{ 
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+body{
+  text-align: center;
+}
+
+.picture{
+  position: relative;
+  z-index: 1;
+}
+
+.picture .background{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("Assets/images/background.jpg") center center;
+    opacity: .4;
+    background-size: cover;
+    min-height: 100vh; 
+}
+
+ h1{
+  padding-top: 17px;
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+}
+
+h3{
+  padding-top: 14px;
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+}
+
+p{
+  color: black;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px;
+  grid-column-gap: 20px;
+  grid-row-gap: 7px;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 425px){
+  .grid{
+    grid-template-columns: 1fr;
+  }
+  *{
+    color: pink;
+  }
+  
+}
+
+.box-item{
+  background-color: rgba(6, 172, 238, 0.411);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 90px;
+  font-size: 30px;
+  text-align: center;
+}
+.box-item:hover{
+  background-color: rgba(146, 219, 231, 0.856);
+}
+
+.form-group input{
+  width:200px;
+  height: 45px;
+  font-size: 25px;
+}
+
+.btn{
+  width: 150px;
+  height: 27px;
+  font-size: 20px;
+  color: blue;
+  margin-top: 10px;
+}

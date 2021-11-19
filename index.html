@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo2 API</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <section>
+    <div class="picture">
+      <div class="background"></div>
+        <div class="container">
+          <div class="text">
+            <h1 class="title">API Weather Exo2</h1>
+            <h3>Choose the City</h3>
+            
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="inputCity" />
+              </div>
+              <button type="submit" class="btn">
+                search
+              </button>
+            </form>
+            <div class="grid">
+              <div id="city" class="box-item"></div>
+              <div id="temp" class="box-item"></div>
+              <div id="humidity" class="box-item"></div>
+              <div id="wind" class="box-item"></div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+    </section>
+      <script src="apikey.js"></script>
+      <script src="main.js"></script>
+  </body>
+</html>
