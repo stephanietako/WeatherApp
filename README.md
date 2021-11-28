@@ -1,4 +1,4 @@
-Hi Everybody!
+Hi Everybody !
 
 It's a Simple Weather Application made by using HTML, CSS & JavaScript Vanilla.
 
@@ -14,4 +14,5 @@ To get your api code in secure I suggest you to follow the tutorial of Nekã :
 https://medium.com/@nekall/fake-env-pour-faire-des-exercices-js-vanilla-aa5c06710de0
 
 Now it’s your time to create !
+
 Have a nice work ! 
