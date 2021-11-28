@@ -1,6 +1,6 @@
 Hi Everybody !
 
-It's a Simple Weather Application made by using HTML, CSS & JavaScript Vanilla.
+It's a simple Weather Application made by using HTML, CSS & JavaScript Vanilla.
 
 This application weather app will show the weather informations that it will get from the API :
  http://www.OpenWeatherMap.org
