@@ -1,5 +1,4 @@
-//c'est mon appel à l'api avec la city en paramètre de fonction
- let apiCall = function (city) {
+let apiCall = function (city) {
   const env = new VarEnv();
   let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${env.apikey}&units=metric&lang=fr`;
   
@@ -21,16 +20,10 @@
     alert("Sorry guys I don't have this city")
   });
   }
-  //c'est l'écouteur d'évenement sur la soumission du formulaire
+  
  document.querySelector('form').addEventListener('submit', function (e) {
     e.preventDefault();
     let ville = document.querySelector('#inputCity').value;
     apiCall(ville);
   });
 apiCall('Honolulu');
-
-
-
-  
-
-
