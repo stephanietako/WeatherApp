@@ -11,5 +11,4 @@ jobs:
       - name: step 1
       env:
         WA_KEY: ${{ secrets.WA_KEY }}
-      run: |
-        example-command "$WA_KEY"
+      run: echo "The API key is:${{ secrets.WA_KEY }}"
