@@ -1,17 +1,17 @@
 name: env_weather_app
-## Triggers the workflow on when there is a push, or 
+## Triggers the workflow on when there is a push, or
 ## pull request on the main branch
-on: [pull_request, push] 
+on: [pull_request, push]
 
 jobs:
   job1:
     ## The type of runner that the job will run on
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
     steps:
       - name: step 1
         ## Reference your environment variables
         ## run: echo "The API key is:${{secrets.WA_KEY}}"
-      with: # Set the secret as an input
-        wa_key: ${{ secrets.WA_KEY }}
-      env: # Or as an environment variable
-        wa_key: ${{ secrets.WA_KEY }}
+        # with: # Set the secret as an input
+        #   wa_key: ${{ secrets.WA_KEY }}
+        env: # Or as an environment variable
+          wa_key: ${{ secrets.WA_KEY }}
