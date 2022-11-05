@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: step 1
         ## Reference your environment variables
-        ## run: echo "The API key is:${{secrets.WA_KEY}}"
+        run: echo "The API key is:${{secrets.WA_KEY}}"
         # with: # Set the secret as an input
         #   wa_key: ${{ secrets.WA_KEY }}
         env: # Or as an environment variable
