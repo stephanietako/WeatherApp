@@ -15,7 +15,7 @@ The user can choose the city of his choice on the search bar and click to have t
 
 -The humidity
 
-To get your api code in secure I suggest you to follow the tutorial of Nekã :
+To get your api code in secure I suggest you to follow the tutorial of [@Neka](https://github.com/Nekall) :
 https://medium.com/@nekall/fake-env-pour-faire-des-exercices-js-vanilla-aa5c06710de0
 
 Now it’s your time to create !
