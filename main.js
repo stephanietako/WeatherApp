@@ -2,8 +2,10 @@ let apiCall = function (city) {
   const env = new VarEnv();
   let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${env.apikey}&units=metric&lang=fr`;
   
-  fetch(url).then((response) =>
-    response.json().then((data) => {
+  fetch(url)
+    .then((response) =>
+    response.json()
+    .then((data) => {
       console.log(data)
       document.querySelector('#city').innerHTML = data.name;
       document.querySelector('#temp').innerHTML = 
