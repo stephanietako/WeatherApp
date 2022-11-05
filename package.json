@@ -3,9 +3,8 @@
   "devDependencies": {
     "gh-pages": "^4.0.0"
   },
-
-"script": {
-  "predeploy": "npm run build",
-  "build": "gh-pages -d build"
-}
+  "script": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
 }
